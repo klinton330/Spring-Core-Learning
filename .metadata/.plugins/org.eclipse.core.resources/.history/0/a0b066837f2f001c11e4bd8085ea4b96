@@ -1,0 +1,15 @@
+package com.hari.dao;
+
+public class Hello {
+	
+	public void init()
+	{
+		System.out.println("Init method");
+	}
+	
+	public void destroy()
+	{
+		System.out.println("Destroy Method");
+	}
+
+}

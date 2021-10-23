@@ -1,0 +1,24 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   
+   <context:annotation-config></context:annotation-config>
+   
+   <bean id="human" class="com.hari.PropFile.Human"></bean>
+   <bean id="octopus" class="com.hari.PropFile.Octopus"></bean>
+   
+   <bean id="humanHeart" class="com.hari.PropFile.Heart">
+    <property name="noOfHeart" value="1"></property>
+    <property name="animal" value="Human Being"></property>
+   </bean>
+   
+    <bean id="octobusHeart" class="com.hari.PropFile.Heart">
+    <property name="noOfHeart" value="1"></property>
+    <property name="animal" value="Human Being"></property>
+   </bean>
+    
+   </beans>

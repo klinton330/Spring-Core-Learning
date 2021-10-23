@@ -1,0 +1,12 @@
+package com.hari.PropFile;
+
+public class Human {
+	
+	Heart h;
+	
+	public void Display()
+	{
+		System.out.println("The animal is"+" "+h.getAnimal()+" "+" has"+" "+h.noOfHeart+" "+"of Hearts" );
+	}
+
+}

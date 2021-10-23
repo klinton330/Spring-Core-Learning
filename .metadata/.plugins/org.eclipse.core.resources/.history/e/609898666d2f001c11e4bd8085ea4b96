@@ -1,0 +1,60 @@
+package com.hari.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.mysql.cj.jdbc.Driver;
+
+public class StudentDao {
+	
+	private String driver="com.mysql.cj.jdbc.Driver";
+	private String url="jdbc:mysql://localhost:3306/hostel";
+	private String user="root";
+	private String password="";
+	
+	
+	public void selectRows()
+	{
+		try
+		{
+		Class.forName(driver);
+		Connection con=DriverManager.getConnection(url, user, password);
+		Statement s=con.createStatement();
+		String sql="select*from student";
+		 ResultSet rs=s.executeQuery(sql);
+		 while(rs.next())
+		 {
+			 System.out.println(rs.getString("sname")+" "+rs.getInt("fees")+"  "+rs.getString("foodType"));
+		 }
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void deleteStudent(int id)
+	{
+		try
+		{
+		Class.forName(driver);
+		Connection con=DriverManager.getConnection(url, user, password);
+		Statement s=con.createStatement();
+		String sql="delete from student where id="+id;
+		s.executeUpdate(sql)(sql);
+		System.out.println("Record deleted for id"+id);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+	public static void main(String[] args) {
+		StudentDao s=new StudentDao();
+		s.deleteStudent(4);
+	}
+
+}

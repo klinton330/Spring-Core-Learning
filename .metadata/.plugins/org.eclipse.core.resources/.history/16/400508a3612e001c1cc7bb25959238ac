@@ -1,0 +1,14 @@
+package com.hari.PropFile;
+
+public class Heart {
+	
+	int noOfHeart;
+	String animal;
+	
+	public int getNoOfHeart() {
+		return noOfHeart;
+	}
+	public String getAnimal() {
+		return animal;
+	}
+}

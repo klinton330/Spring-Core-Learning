@@ -1,0 +1,10 @@
+package com.hari.utility;
+
+public class ScienceTeacher implements Teacher {
+
+	public void teach() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

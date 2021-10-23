@@ -1,0 +1,20 @@
+package com.hari.utility;
+
+import org.springframework.beans.factory.annotation.Required;
+import org.springframework.beans.factory.annotation.Value;
+
+public class Student {
+	
+	public String studentName;
+	public String intrestedCourse;
+	public String hobby;
+	
+	
+	public void displayStudent() {
+		System.out.println("Student Name: "+studentName);
+		System.out.println("Intrested Course: "+intrestedCourse);
+		System.out.println("Hobby: "+hobby);
+	}
+	
+
+}

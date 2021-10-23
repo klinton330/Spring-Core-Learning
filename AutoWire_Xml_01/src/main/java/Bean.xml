@@ -1,0 +1,20 @@
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   
+   <bean id="p" class="com.hari.AutoWire_Xml_01.Pump"></bean>
+   <bean id="pulse" class="com.hari.AutoWire_Xml_01.Pulse"></bean>
+   
+   <!-- BY NAME 
+   <bean id="heart" class="com.hari.AutoWire_Xml_01.Heart" autowire="byName"></bean>
+   -->
+   
+   <!-- BY TYPE-->
+   <bean id="heart" class="com.hari.AutoWire_Xml_01.Heart" autowire="byType"></bean>
+   
+   
+   </beans>

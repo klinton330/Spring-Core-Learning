@@ -1,0 +1,29 @@
+package com.hari.utility;
+
+import org.springframework.stereotype.Component;
+
+
+public class College {
+	
+	Principal principal;
+	
+	//Injecting principal object using constructor
+	
+	
+	public void display()
+	{
+		System.out.println("This is college Bus");
+		principal.principalInfo();
+	}
+
+	public College(Principal principal) {
+		super();
+		this.principal = principal;
+	}
+
+	public College(Principal principal) {
+		super();
+		this.principal = principal;
+	}
+
+}

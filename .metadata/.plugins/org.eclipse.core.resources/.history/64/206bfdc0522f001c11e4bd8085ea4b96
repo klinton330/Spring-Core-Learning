@@ -1,0 +1,37 @@
+package com.hari.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import com.mysql.cj.jdbc.Driver;
+
+public class StudentDao {
+	
+	private String driver="com.mysql.jdbc.Driver";
+	private String url="jdbc:mysql://localhost:3306/hostel ";
+	private String user="root";
+	private String password="root";
+	
+	public static void main(String[] args) {
+		StudentDao s=new StudentDao();
+		s.selectRows();
+	}
+	public void selectRows()
+	{
+		try
+		{
+		Class.forName(driver);
+		Connection con=DriverManager.getConnection(url, user, password);
+		if(con!=null)
+			System.out.println("Connecter");
+		else
+			System.out.println("Not");
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+
+}

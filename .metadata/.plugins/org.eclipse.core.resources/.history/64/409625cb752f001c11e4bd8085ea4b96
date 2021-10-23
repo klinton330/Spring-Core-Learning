@@ -1,0 +1,12 @@
+package com.hari.PropFile;
+
+import com.hari.dao.StudentDao;
+
+public class Test {
+	public static void main(String[] args) {
+		StudentDao s=new StudentDao();
+		//s.deleteStudent(4);
+		s.selectRows();
+	}
+
+}

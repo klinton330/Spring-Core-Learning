@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Annotation_Based_1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hari.Annotation_Based{MobileProcessor.java[MobileProcessor" modifiers="513" timestamp="1633372186021"/>
+    <typeInfo handle="=Dependency_Injection_Project_01/C:\/Users\/DELL\/.m2\/repository\/org\/springframework\/spring-core\/4.3.14.RELEASE\/spring-core-4.3.14.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-core=/=/maven.version=/4.3.14.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.core.serializer(Serializer.class[Serializer" modifiers="1537" timestamp="1633272135752"/>
+    <typeInfo handle="=Dependency_Injection_Project_01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{Service.java[Service" modifiers="513" timestamp="1633861519842"/>
+    <typeInfo handle="=Dependency_Injection_Project_01/C:\/Program Files\/Java\/jdk-14\/lib\/jrt-fs.jar`java.rmi=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/14\/docs\/api\/=/&lt;java.rmi.server(ServerRef.class[ServerRef" modifiers="1050113" timestamp="1595685601507"/>
+    <typeInfo handle="=Annotation_Based_04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hari.utility{Teacher.java[Teacher" modifiers="513" timestamp="1634464841581"/>
+    <typeInfo handle="=Annotation_Based_05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hari.utility{Teacher.java[Teacher" modifiers="513" timestamp="1634464841581"/>
+</typeInfoHistroy>
